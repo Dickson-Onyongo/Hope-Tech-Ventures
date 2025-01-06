@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #282c34;
 }
 
 .App-header {
@@ -11,4 +10,10 @@
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.App-body {
+  max-height: 100%;
+  margin: 50px;
+  font-weight: 100%;
+  margin-bottom: 100%;
 }

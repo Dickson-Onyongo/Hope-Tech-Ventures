@@ -9,16 +9,22 @@ export default function App() {
         </header>
 
         <div className="App-body">
-          <p>HELLO WORLD</p>
-          <form>
-            <label forhtml="email">Email:</label>
-            <input type="email" id="email" name="email"></input>
+          <div className="intro-sec">
+            <h1>HOPE TECH VENTURES</h1>
+            <p>Solutions at your finger tips.</p>
+          </div>
 
-            <label forhtml="password">password:</label>
-            <input type="password" id="password"></input>
-
-            <button type="submit">Ok</button>
-          </form>
+          <div className="container">
+            <div className="row">
+              <h2>Its all about the latest and greatest solutions </h2>
+              <div className="col">
+                <img></img>
+              </div>
+              <div className="col">
+                <img></img>
+              </div>
+            </div>
+          </div>
         </div>
 
         <footer className="App-footer">
