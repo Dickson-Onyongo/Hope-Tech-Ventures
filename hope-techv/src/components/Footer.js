@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import getFullYear from "../utils";
 
 function Footer() {
   return (
@@ -15,8 +16,31 @@ function Footer() {
               <li>Jesus is lord</li>
             </ul>
           </div>
-          <div class="col order-5"></div>
-          <div class="col order-1">Third in DOM, with an order of 1</div>
+          <div className="col col-md-3 col-sm-6">
+            <h4>lorem3 text</h4>
+            <ul className="list-unstyled">
+              <li>Jesus is lord</li>
+              <li>Jesus is lord</li>
+              <li>Jesus is lord</li>
+              <li>Jesus is lord</li>
+            </ul>
+          </div>
+          <div className="col col-md-3 col-sm-6">
+            <h4>lorem3 text</h4>
+            <ul className="list-unstyled">
+              <li>Jesus is lord</li>
+              <li>Jesus is lord</li>
+              <li>Jesus is lord</li>
+              <li>Jesus is lord</li>
+            </ul>
+          </div>
+        </div>
+        {/*footer copyright*/}
+
+        <div className="footer-bottom">
+          <p className="text-xs-center font-monospace">
+            Copyright {getFullYear()} - Hope Tech Ventures. All rights reserved.
+          </p>
         </div>
       </div>
     </div>
