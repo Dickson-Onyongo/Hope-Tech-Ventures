@@ -1,4 +1,9 @@
+import React from "react";
 import "./App.css";
+import background from "./assets/background-1.png";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function App() {
   return (
@@ -8,24 +13,21 @@ export default function App() {
           <p>Hope Tech Ventures</p>
         </header>
 
-        <div className="App-body">
-          <div className="intro-sec">
-            <h1>HOPE TECH VENTURES</h1>
-            <p>Solutions at your finger tips.</p>
-          </div>
+        <main id="main-body">
+          <Container>
+            <Row className=" first-row justify-content-center  text-md-start">
+              <h1>HOPE TECH VENTURES</h1>
+              <p>Solutions at your finger tips.</p>
+            </Row>
 
-          <div className="container">
-            <div className="row">
-              <h2>Its all about the latest and greatest solutions </h2>
-              <div className="col">
-                <img></img>
-              </div>
-              <div className="col">
-                <img></img>
-              </div>
-            </div>
-          </div>
-        </div>
+            <Row>
+              <Col>
+                <h2>Its all about the latest and greatest solutions </h2>
+              </Col>
+              <Col></Col>
+            </Row>
+          </Container>
+        </main>
 
         <footer className="App-footer">
           <p>I LOVE CODING</p>
