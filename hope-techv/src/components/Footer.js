@@ -12,13 +12,25 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col col-md-3 col-sm-6">
-              <h4 className="mb-4 shadows-into-light-regular style={{ color: `var(--bs-blue)` }}">
+              <h4 className=" mb-4 shadows-into-light-regular fw-bold">
                 Hope Tech Ventures
               </h4>
               <ul className="list-styled">
-                <li>About US</li>
-                <li>News</li>
-                <li>Contact Us</li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    News
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    Contact Us
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="col col-md-3 col-sm-6">
@@ -118,5 +130,11 @@ const FooterContainer = styled.footer`
     padding-top: 3rem;
     padding-botom: 2rem;
     position: flex;
+  }
+  .mb-4 {
+    color: var(--bs-dark);
+  }
+  ul li a:hover {
+    color: var(--bs-blue);
   }
 `;
