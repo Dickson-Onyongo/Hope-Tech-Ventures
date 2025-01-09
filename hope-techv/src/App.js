@@ -9,6 +9,9 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+        <br />
+        lorem3
+        <br />
         <Footer />
       </div>
     );
