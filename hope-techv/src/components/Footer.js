@@ -12,39 +12,83 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col col-md-3 col-sm-6">
-              <h4>lorem3 text</h4>
-              <ul className="list-unstyled">
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
+              <h4 className="mb-4 shadows-into-light-regular style={{ color: `var(--bs-blue)` }}">
+                Hope Tech Ventures
+              </h4>
+              <ul className="list-styled">
+                <li>About US</li>
+                <li>News</li>
+                <li>Contact Us</li>
               </ul>
             </div>
             <div className="col col-md-3 col-sm-6">
-              <h4>lorem3 text</h4>
-              <ul className="list-unstyled">
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
+              <h4 className="mb-4">Our Services</h4>
+              <ul className="list-styled">
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    CCTV Installation
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    Computer Support
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    Software Development
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    Computer Hardware
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    Accessories
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="col col-md-3 col-sm-6">
-              <h4>lorem3 text</h4>
-              <ul className="list-unstyled">
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
+              <h4 className="mb-4">Support</h4>
+              <ul className="list-styled">
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    FAQ
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    Who We Are
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    Privacy
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="col col-md-3 col-sm-6">
-              <h4>lorem3 text</h4>
-              <ul className="list-unstyled">
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
-                <li>Jesus is lord</li>
+              <h4 className="mb-4">Social media</h4>
+              <ul className="list-styled">
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    Facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    X
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="list-group-item list-group-item-action">
+                    Instagram
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -52,7 +96,7 @@ function Footer() {
 
           <div className="footer-bottom .me-md-3 ">
             <p className="text-xs-center font-monospace ">
-              Copyright {getFullYear()} - Hope Tech Ventures. All rights
+              Copyright@{getFullYear()} - Hope Tech Ventures. All rights
               reserved.
             </p>
           </div>
@@ -66,8 +110,7 @@ export default Footer;
 
 const FooterContainer = styled.footer`
   .footer-middle {
-    background: var(--mainDark);
-    font-family: var(--bs-font-sans-serif);
+    background: var(--bs-secondary);
     padding-top: 3rem;
     color: white;
   }
