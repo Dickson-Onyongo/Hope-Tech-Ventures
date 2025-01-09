@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import getFullYear from "../utils";
-import "../App.css";
+import getFullYear from "../../utils";
+import "../../App.css";
 
 import styled from "styled-components";
 
