@@ -46,3 +46,31 @@
 .navbar {
   font-family: var(--bs-font-sans-serif);
 }
+
+/* Home page 
+.home-Div {
+  position: flex;
+  background-color: rgb(178, 165, 252);
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  width: 100em;
+  left: 80px;
+}
+
+.home-Div h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+
+  @media (min-width: 768px) {
+    padding-top: 4rem;
+    padding-bottom: 12rem;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 100;
+    }
+  }
+}
+*/

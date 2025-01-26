@@ -4,7 +4,7 @@ class Cctv extends Component {
   render() {
     return (
       <div>
-        <h3> CCTV SERVISES PAGE hello world</h3>
+        <h3> CCTV SERVISES PAGE </h3>
       </div>
     );
   }

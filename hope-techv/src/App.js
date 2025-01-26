@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/layouts/Navbar";
 import Footer from "./components/layouts/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Switch, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import Home from "./components/pages/Home";
 import WhoWeAre from "./components/pages/WhoWeAre";

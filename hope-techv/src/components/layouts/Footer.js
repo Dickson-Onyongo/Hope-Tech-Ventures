@@ -128,7 +128,7 @@ const FooterContainer = styled.footer`
   }
   .footer-bottom {
     padding-top: 3rem;
-    padding-botom: 2rem;
+
     position: flex;
   }
   .mb-4 {
